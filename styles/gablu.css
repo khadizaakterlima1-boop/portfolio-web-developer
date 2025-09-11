@@ -124,7 +124,7 @@ main{
 
 /* 3rd part section + ABOUT*/
 .sctn-name{
-font-size: 50px;
+font-size: 40px;
 font-weight: 800;
  color:rgb(241, 173, 25);
 }
@@ -148,4 +148,21 @@ font-weight: 800;
     color:rgba(20, 9, 9, 0.918);
     
 }
+.about-title{
+    color:rgba(43, 3, 3, 0.712);
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.skill{
+    display:;
+}
+
+
+    
+
+
 

@@ -1,0 +1,54 @@
+/* banner header */
+
+
+
+
+
+
+.asimovian-regular {
+  font-family: "Asimovian", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* name style */
+.clr{
+    color: rgb(236, 4, 4);
+    
+}
+.btn{
+    color: white;
+    background-color:rgba(248, 43, 43, 0.877);
+    font-family:"Asimovian", sans-serif;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+     padding: 12px 30px;
+}
+
+/* nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 205px;
+    
+}
+.nav-name{
+    font-size: 45px;
+    font-weight: 900;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    font-size: 20px;
+    font-weight: 600;
+list-style: none;
+margin-right: 51px;
+}
+nav ul a{
+text-decoration: none;
+color: rgb(42, 42, 170);
+}

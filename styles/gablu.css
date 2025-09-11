@@ -24,8 +24,22 @@
     border-radius: 5px;
     font-weight: bold;
      padding: 12px 30px;
+     margin-right: 20px;
 }
 
+     
+.btni{
+    margin: 0px 10px;
+align-items: baseline;   
+}
+.btnc{
+    height: 20px;
+    width: 20px;
+   margin-right: 5px;
+ display: inline;
+   align-items: center;
+   justify-content: space-between;
+}
 /* nav style */
 nav{
     display: flex;
@@ -51,4 +65,17 @@ margin-right: 51px;
 nav ul a{
 text-decoration: none;
 color: rgb(42, 42, 170);
+}
+/* banner 2nd part*/
+.bnr{
+    color: rgba(10, 5, 1, 0.644);
+    font-size: 23px;
+    font-weight: bold;
+}
+.bn-name{
+    color: rgb(238, 153, 7);
+}
+.bnr-detail{
+  align-items: center;
+  color:rgba(10, 5, 1, 0.849); 
 }

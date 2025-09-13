@@ -1,4 +1,4 @@
-/* banner header */
+ /* banner header */
 
 
 
@@ -55,6 +55,7 @@ nav{
 nav ul{
     display: flex;
     align-items: center;
+  
 }
 nav ul li{
     font-size: 20px;
@@ -73,11 +74,13 @@ color: rgb(42, 42, 170);
 .banner{
 display: flex;
    justify-content: space-between;
-   margin:  40px  200px;
+   margin: 0px 40px 0px 200px;
+ 
 
 }
 .banner-uper{
     max-width: 580px;
+    
 }
 .bnr{
     color: rgba(10, 5, 1, 0.644);
@@ -123,21 +126,27 @@ main{
 
 
 /* 3rd part section + ABOUT*/
+.main section{
+margin-top: 125px;
+margin-top: 130px;
+}
 .sctn-name{
 font-size: 40px;
 font-weight: 800;
  color:rgb(241, 173, 25);
 }
-.sctn-title{
+.section{
     font-size: 20px;
-    font-weight: 600;
-    color:rgba(43, 3, 3, 0.712);
+    font-weight: 300;
+    color:#474747;
 }
 .introduction{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 125px;
+  margin-top: 125px;
+ 
+  
 }
 .abouts{
     display: flex;
@@ -152,16 +161,114 @@ font-weight: 800;
     color:rgba(43, 3, 3, 0.712);
 }
 
+/* skills item */
 
 .text-center{
     text-align: center;
 }
+.section-title{
+    color:rgb(241, 173, 25); 
+    font-weight: 800;
+font-size:40px ;
 
-.skill{
-    display:;
+ padding-bottom: 20px;
+}
+.section-description{
+   
+ font-size: 20px;
+    font-weight: 300;
+    color:#474747;
+ padding-bottom: 50px;
+  
 }
 
+.skills-upper{
+    display: flex;
+    gap: 24px;
+}
 
+.skill{
+padding: 30px;
+box-shadow: 0px 6px 50px  0px rgb(0, 0,0,0.10 );
+border-radius: 5px;
+ 
+}
+
+/* resum styl */
+
+.resum-upper{
+    display: flex;
+    gap: 50px;
+}
+.exprinc-title{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.exprinc-ditail{
+    color: rgb(27, 1, 1);
+    font-size: 15px;
+  
+}
+.exprinc-item{
+    font-size: 20px;
+    font-weight: 400;
+     color: rgba(27, 1, 1, 0.712);
+     margin-bottom: 20px;
+}
+.sctn-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+      color:rgb(241, 173, 25);
+}
+.column-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.btnn{
+    
+    color: white;
+    background-color:rgba(248, 43, 43, 0.877);
+    font-family:"Asimovian", sans-serif;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 20px 25px;
+    margin-left: 500px;
+  margin-top: 50px;
+   
+  
+    
+}
+
+/* footer style */
+
+footer{
+    display: flex;
+   background-color: #FFF8F3; 
+   margin-top: 100px;
+   padding: 140px 200px;
+   gap: 100px;
+}
+    .fot-clm{
+        width: 50%;
+    }
+   
+    .call input[type="text"],.call input[type="email"] ,textarea{
+        display: block;
+        margin-bottom: 30px;
+        padding: 20px 35px;
+        color: #7575;
+        border-radius: 5px;
+        background: #FFF8F3;
+        border: none;
+        width: 100%;
+    }
+    .media-link{
+        margin-right: 300px;
+        display: flex;
+    }
     
 
 
